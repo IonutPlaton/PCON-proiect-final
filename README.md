@@ -1,4 +1,4 @@
-# (Titlu)
+# LFO Guitar Modulator
 (Scurtă descriere)
 
 ## (Instalare)
