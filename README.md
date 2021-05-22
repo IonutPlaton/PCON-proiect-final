@@ -33,5 +33,7 @@ ori prin inregistrarea chitarii cu microfonul, si ascultarea output-ului in cast
 
 ## (Link-uri)
 Link 1: https://cycling74.com/articles/expand-your-guitar-vol-1/
+
 Link 2: https://music.arts.uci.edu/dobrian/maxcookbook/bandpass-filter-swept-lfo
+
 Link 3: https://sites.uci.edu/computermusic/tag/modulation/
