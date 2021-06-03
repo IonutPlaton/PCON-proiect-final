@@ -27,7 +27,11 @@ si de asemenea pot fi sinconizate cu timpul de delay al efectului.
 La o intensitate luminoasa slaba, aproape de 0, in max se va schimba LFO modulation, intr-o ordine anume. Setup-ul va fi ori ca in "Link 1" pentru a aplica live efectul, 
 ori prin inregistrarea chitarii cu microfonul, si ascultarea output-ului in casti live sau ulterior inregistrarii.
 
-(3.06) ...
+(3.06) Voi folosi din aceasta pagina idei pentru efecte: 
+
+https://cycling74.com/tutorials/max-5-guitar-processor-part-1 
+
+De asemenea, voi folosi patch-ul GtrProcessor drept sursa de inspiratie pentru proiect.
 
 (X.06) ...
 
