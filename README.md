@@ -4,10 +4,15 @@ de aplicarea delay-ului propriu-zis, cat si dupa. De asemena, mai include 2 knob
 controleaza functiile de "Depth" si "Speed" ale LFO.
 
 ## (Instalare)
-...
+Pornind de [aici](https://cycling74.com/tutorials/max-5-guitar-processor-part-1) 
++[aici](https://music.arts.uci.edu/dobrian/maxcookbook/modulating-oscillator)+
+[aici](https://docs.cycling74.com/max7/tutorials/15_delaychapter01) am creat un efect pentru
+chitara - Guitar Effect.
+
+
 
 ## (Utilizare)
-Modulatiile disponibile sunt:
+(Modulatiile disponibile sunt:
 
 Triangle
 Square
@@ -19,7 +24,9 @@ Super Ramp
 SuperRandom
 
 Acestea din urma pot fi controlate individual (prin cele 2 knob-uri amintite mai sus), 
-si de asemenea pot fi sinconizate cu timpul de delay al efectului.
+si de asemenea pot fi sinconizate cu timpul de delay al efectului.)
+
+
 
 ## (Istoric)
 
@@ -33,7 +40,7 @@ https://cycling74.com/tutorials/max-5-guitar-processor-part-1
 
 De asemenea, voi folosi patch-ul GtrProcessor drept sursa de inspiratie pentru proiect.
 
-(X.06) ...
+(8.06) ...
 
 ## (Link-uri)
 Link 1: https://cycling74.com/articles/expand-your-guitar-vol-1/
