@@ -25,6 +25,8 @@ astfel incat frecventa semnalului generat sa varieze in functie de intensitatea 
 
 In final, este implementat un efect de delay.
 
+DEMO VIDEO: https://www.youtube.com/watch?v=V0RnVkCrEK4
+
 ## (Istoric)
 
 (13.05) Am ales sa implementez acest efect din toate functionalitatile pedalei. Pentru moment, partea de interactivitate va consta in inregistrarea live a unor trackuri cantate la chitara electrica+folosirea oscHook pe telefon. 
