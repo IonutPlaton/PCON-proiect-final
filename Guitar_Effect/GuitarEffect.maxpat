@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1570.0, 77.0, 1852.0, 929.0 ],
+		"rect" : [ 1558.0, 85.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -383,7 +383,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 505.07894641160965, 68.148367047309875, 360.0, 155.0 ],
-					"setfilter" : [ 0, 9, 1, 0, 0, 156.696319580078125, 0.467822313308716, 0.472899347543716, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 2, 1, 0, 0, 156.696319580078125, 0.467822313308716, 0.472899347543716, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -843,7 +843,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 60732.669387755122443, "ticks" ],
+						"originallength" : [ 15087.063945578236599, "ticks" ],
 						"originaltempo" : 120.000000000000057,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1538,7 +1538,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-23",
-					"items" : "USB",
+					"items" : [ "None", ",", "Microphone Array (Realtek(R) Au" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1556,7 +1556,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"items" : [ "Off", ",", 1, "Input 1", ",", 2, "Input 2" ],
+					"items" : [ "Off", ",", 1, "Left Input", ",", 2, "Right Input" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2784,13 +2784,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-58", 2 ],
 					"source" : [ "obj-80", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-198", 1 ],
-					"source" : [ "obj-81", 1 ]
 				}
 
 			}
