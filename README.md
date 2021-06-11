@@ -1,32 +1,29 @@
-# LFO Guitar Modulator
-Sectiunea de modulare a efectului 'Echolution 2 Basic' include modularea frecventei de esantionare atat inainte
-de aplicarea delay-ului propriu-zis, cat si dupa. De asemena, mai include 2 knob-uri ce
-controleaza functiile de "Depth" si "Speed" ale LFO.
-
+# Modulation/Delay effect for guitar
 ## (Instalare)
 Pornind de [aici](https://cycling74.com/tutorials/max-5-guitar-processor-part-1) 
 +[aici](https://music.arts.uci.edu/dobrian/maxcookbook/modulating-oscillator)+
 [aici](https://docs.cycling74.com/max7/tutorials/15_delaychapter01) am creat un efect pentru
 chitara - Guitar Effect.
 
-
-
 ## (Utilizare)
-(Modulatiile disponibile sunt:
 
-Triangle
-Square
-Ramp
-Random
-Super Triangle
-Super WSquare
-Super Ramp
-SuperRandom
+Am preluat partea de Input Handling de [aici](https://cycling74.com/tutorials/max-5-guitar-processor-part-1) si am mai adaugat 
+partea de "Test Audio" pentru incarcarea unor trackuri in Max:
 
-Acestea din urma pot fi controlate individual (prin cele 2 knob-uri amintite mai sus), 
-si de asemenea pot fi sinconizate cu timpul de delay al efectului.)
+![](assets/testaudio.PNG)
 
+Semnalul audio este trecut prin niste filtre care pot fi selectate din dropdown bar:
 
+![](assets/filtre.PNG)
+
+Pornind de [aici](https://music.arts.uci.edu/dobrian/maxcookbook/modulating-oscillator) , am recreat un oscilator, pe care l-am modificat 
+astfel incat frecventa semnalului generat sa varieze in functie de intensitatea luminii preluate de senzorul telefonului
+(am folosit OSC hook). Prin selector, poate fi ales acest modulator("Modulator2") sau alt [modulator](https://cycling74.com/tutorials/lfo-tutorial-1-the-zen-of-the-silent-patch/)
+("Modulator1"). 
+
+![](assets/out.PNG)
+
+In final, este implementat un efect de delay.
 
 ## (Istoric)
 
@@ -40,7 +37,7 @@ https://cycling74.com/tutorials/max-5-guitar-processor-part-1
 
 De asemenea, voi folosi patch-ul GtrProcessor drept sursa de inspiratie pentru proiect.
 
-(8.06) ...
+(8.06) Am ales sa implementez un alt efect de chitara, ce contine modulatoare, filtre si un delay. 
 
 ## (Link-uri)
 Link 1: https://cycling74.com/articles/expand-your-guitar-vol-1/
