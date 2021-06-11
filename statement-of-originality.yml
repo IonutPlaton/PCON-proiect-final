@@ -1,24 +1,17 @@
 # adapted from https://cs.anu.edu.au/courses/comp1720/resources/faq/#statement-of-originality
 
-# put *your* name here
 name:Platon Ioan-Ovidiu
 
 declaration: >-
   I declare that everything I have submitted in this assignment is entirely my
   own work, with the following exceptions:
 
-
-# add as many "name+comment" entries as necessary
-# (or remove it altogether if you haven't collaborated with anyone)
 collaboration:
   - name:Platon Alexandra
     comment: >-
       
-
-# add as many "url+licence+comment" entries as necessary
-# (or remove it altogether if you haven't used any external code)
 code: GtrProcessor
-  - comment: 
+  - comment: Input Handling
     url: https://cycling74.com/tutorials/max-5-guitar-processor-part-1
     licence:
 
@@ -26,14 +19,18 @@ code: Modulator part from Max
   - comment: 
     url: https://music.arts.uci.edu/dobrian/maxcookbook/modulating-oscillator
     licence:
+
 code: Delay part from Max
   - comment: 
     url: https://docs.cycling74.com/max7/tutorials/15_delaychapter01
     licence:
 
-# add as many "url+licence+comment" entries as necessary
-# (or remove it altogether if you haven't used any external assets)
-assets:
-  - comment:
-    url:
+code: 
+  - comment: Delay part from Max (1)
+    url: https://www.youtube.com/watch?v=JoElwILrLKI
+    licence:
+
+code: 
+  - comment: LFO Modulator (first part)
+    url: https://cycling74.com/tutorials/lfo-tutorial-1-the-zen-of-the-silent-patch/
     licence:
